@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">I ❤️ Study</h1>
+    </header>
+
+    <section class="timer-section">
+        <h2>Study Timer</h2>
+        <div id="timer">00:00:00</div>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="stopTimer()">Stop</button>
+        <button onclick="resetTimer()">Reset</button>
+    </section>
+
+    <section class="points-section">
+        <h2>Your Points</h2>
+        <p id="points">0</p>
+        <button onclick="addPoints()">Add 10 Points</button>
+    </section>
+
+    <section class="rank-section">
+        <h2>Your Rank</h2>
+        <p id="rank">Beginner 📘</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
